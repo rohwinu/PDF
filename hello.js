@@ -10,7 +10,7 @@
 //
 // Fetch the PDF document from the URL using promises
 //
-PDFJS.getDocument('helloworld.pdf').then(function(pdf) {
+PDFJS.getDocument('http://cdc.gatolocostudios.com/panel/examenes/CDC030420141396619783223fe833b.pdf').then(function(pdf) {
   // Using promise to fetch the page
   pdf.getPage(1).then(function(page) {
     var scale = 1.5;
